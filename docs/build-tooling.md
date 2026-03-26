@@ -33,5 +33,7 @@ Because this repository is an archive, this wiki does not claim a specific comma
 
 ## See also
 
-1. [Directory and file index](directory-file-index.md) for the module catalog and which modules are “kernel-like”.
-2. [Memory model](memory-model.md) for how banking and erasable assignments shape the code organization.
+1. [Overview](overview.md) for how `Luminary099/MAIN.agc` and the split-module layout are intended to be read.
+2. [Directory and file index](directory-file-index.md) for the module catalog and which modules are “kernel-like”.
+3. [Architecture](architecture.md) for the component decomposition that the monolithic include build stitches together.
+4. [Memory model](memory-model.md) for how banking and erasable assignments shape the code organization.

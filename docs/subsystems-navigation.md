@@ -40,5 +40,8 @@ The exact timing of navigation propagation loops is not asserted here because it
 
 ## See also
 
-1. [Memory model](memory-model.md) for how these state vectors are laid out and banked.
-2. [Telemetry and downlink](telemetry-downlink.md) for how state vectors are packaged into downlink lists (`Luminary099/DOWNLINK_LISTS.agc` includes lists that reference `RN`, `VN`, `R-OTHER`, `V-OTHER`, and other navigation-related erasables).
+1. [Guidance and mission programs](subsystems-guidance.md) for the mission programs that consume navigation state and call into integration and geometry modules.
+2. [Control (LM DAP / RCS / engine-related control)](subsystems-control.md) for timing constraints and control interfaces that interact with state propagation and sensor validity.
+3. [Memory model](memory-model.md) for how these state vectors are laid out and banked.
+4. [Telemetry and downlink](telemetry-downlink.md) for how state vectors are packaged into downlink lists (`Luminary099/DOWNLINK_LISTS.agc` includes lists that reference `RN`, `VN`, `R-OTHER`, `V-OTHER`, and other navigation-related erasables).
+5. [Program flow maps](program-flow-maps.md) for source-grounded runtime flows that often define when navigation work is invoked (interrupt handlers, Waitlist tasks, and Executive jobs).

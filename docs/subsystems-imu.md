@@ -56,3 +56,5 @@ The code also issues program alarm `00213` if ISS turn-on is requested without I
 
 1. [Interrupts and I/O](interrupts-io.md) for how T4RUPT fits into the interrupt model and how channels are used.
 2. [DSKY and crew interaction](subsystems-dsky.md) for shared use of DSKY lamp control bits (e.g., ISS warning lamp is driven via `DSALMOUT` bit 1 as described in `INPUT_OUTPUT_CHANNEL_BIT_DESCRIPTIONS.agc` and used by `SETISSW` in T4RUPT).
+3. [Control (LM DAP / RCS / engine-related control)](subsystems-control.md) for Time6/DAP timing conventions and control-channel context that often must be considered when interpreting IMU availability, inhibit windows, and actuator behavior.
+4. [Memory model](memory-model.md) for how IMU-related state (e.g., `IMODES30`, `IMODES33`) and interrupt storage are defined in erasable assignments.

@@ -68,7 +68,7 @@ The T4RUPT program includes explicit monitoring and processing of several hardwa
 
 ## Mission and device subsystems
 
-Luminary contains many mission programs and subsystem modules. This wiki provides separate deep dives, but at the architectural level it is useful to note:
+Luminary contains many mission programs and subsystem modules. This wiki provides separate deep dives (see [Guidance and mission programs](subsystems-guidance.md), [Navigation and state propagation](subsystems-navigation.md), [Control (LM DAP / RCS / engine-related control)](subsystems-control.md), [DSKY and crew interaction](subsystems-dsky.md), and [IMU / ISS interfaces](subsystems-imu.md)), but at the architectural level it is useful to note:
 
 1. Guidance, navigation, control, landing, and rendezvous logic are organized largely by program modules (e.g., `P20-P25.agc`, `P40-P47.agc`, `THE_LUNAR_LANDING.agc`, `ASCENT_GUIDANCE.agc`) as indexed in `Luminary099/README.md`.
 2. Control/autopilot logic interacts with interrupts and dedicated counters. For example, Time6 is reserved for LM DAP jet timing, and non-DAP code is explicitly warned not to tamper with it (`Luminary099/T6-RUPT_PROGRAMS.agc` header conventions; see also `T6JOBCHK`).

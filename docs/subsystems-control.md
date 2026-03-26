@@ -38,5 +38,8 @@ These assignments provide navigational anchors for tracing control logic in DAP-
 
 ## See also
 
-1. [Interrupts and I/O](interrupts-io.md) for how `DOT6RUPT` fits into the interrupt model and how channels are used.
-2. [Memory model](memory-model.md) for the placement of DAP storage and Time6 (`TIME6` is assigned in `Luminary099/ERASABLE_ASSIGNMENTS.agc`).
+1. [Guidance and mission programs](subsystems-guidance.md) for mission programs that rely on control modes and that must respect Time6/DAP conventions.
+2. [Navigation and state propagation](subsystems-navigation.md) for the permanent state vectors and propagation modules that feed guidance and therefore affect control demands.
+3. [Interrupts and I/O](interrupts-io.md) for how `DOT6RUPT` fits into the interrupt model and how channels are used.
+4. [Execution model](execution-model.md) for the broader job/task/interrupt interaction patterns that matter when reasoning about control loops and timing.
+5. [Memory model](memory-model.md) for the placement of DAP storage and Time6 (`TIME6` is assigned in `Luminary099/ERASABLE_ASSIGNMENTS.agc`).

@@ -84,4 +84,6 @@ Because these are fixed-located tables, many interpretive routines assume their 
 ## See also
 
 1. [Execution model](execution-model.md) for how interpretive jobs are scheduled and swapped by the Executive.
-2. [Inter-bank communication](architecture.md) for `BANKCALL`/`IBNKCALL` and superbank setting, which interpretive programs and interrupt code rely on (`Luminary099/INTER-BANK_COMMUNICATION.agc`).
+2. [Memory model](memory-model.md) for how `FIXLOC`, `PUSHLOC`, `EBANK`/`FBANK`, and superbank behavior constrain interpretive addressing and storage.
+3. [Interrupts and I/O](interrupts-io.md) for the interrupt context that interpreter-adjacent routines sometimes must interoperate with (especially bank/return conventions).
+4. [Inter-bank communication](architecture.md) for `BANKCALL`/`IBNKCALL` and superbank setting, which interpretive programs and interrupt code rely on (`Luminary099/INTER-BANK_COMMUNICATION.agc`).

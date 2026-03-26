@@ -60,4 +60,6 @@ Each list uses control-list entries such as `DNPTR` (sublist pointers) and `*DNA
 ## See also
 
 1. [Interrupts and I/O](interrupts-io.md) for the DOWNRUPT lead-in and the relationship between downrupt and channel 34/35 writes.
-2. [Memory model](memory-model.md) for how erasable locations like `DNTMBUFF` and pointers like `DNTMGOTO` are assigned and used.
+2. [Navigation and state propagation](subsystems-navigation.md) for the primary state-vector erasables that downlists commonly reference (as defined in `Luminary099/ERASABLE_ASSIGNMENTS.agc`).
+3. [Memory model](memory-model.md) for how erasable locations like `DNTMBUFF` and pointers like `DNTMGOTO` are assigned and used.
+4. [Routine reference](routine-reference.md) for a quick jump to `DODOWNTM`, `DNTMEXIT`, and the downlink list table root `DNTABLE`.

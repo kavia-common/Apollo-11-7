@@ -61,3 +61,5 @@ This is a clear example of crew input (Proceed) being sampled in an interrupt an
 
 1. [Interrupts and I/O](interrupts-io.md) for where keyboard interrupts and T4RUPT fit in the interrupt model.
 2. [Execution model](execution-model.md) for how `NOVAC` job requests are entered (as used by `PROCEEDE`).
+3. [IMU / ISS interfaces](subsystems-imu.md) for the IMU/ISS status bits that drive warnings and for the T4RUPT monitoring paths that interact with display and alarms.
+4. [Telemetry and downlink](telemetry-downlink.md) for the downrupt-driven telemetry path that often gets analyzed alongside crew-visible status and monitoring.
