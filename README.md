@@ -93,6 +93,12 @@ Original Apollo 11 guidance computer (AGC) source code for Command Module (Coman
 
 Please read [CONTRIBUTING.md][7] before opening a pull request.
 
+## Luminary 099 documentation wiki
+
+This repository includes a navigable, source-grounded wiki for the Apollo 11 Lunar Module (LM) flight software “Luminary 099”.
+
+Read it here: [`docs/index.md`](docs/index.md)
+
 ## Compiling
 
 If you are interested in compiling the original source code, check
