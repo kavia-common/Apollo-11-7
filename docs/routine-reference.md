@@ -1,5 +1,7 @@
 # Key routines reference
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 This page is an index of particularly important routines and labels in Luminary 099 that define the runtime model, bank calling, interrupts, and telemetry. It is meant as a “jump table” for readers who want to go straight to the most influential code.
 
 All routines referenced here are grounded in the repository source by **file + label**.

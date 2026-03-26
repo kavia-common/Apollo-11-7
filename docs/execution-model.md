@@ -1,5 +1,7 @@
 # Execution model (Executive + Waitlist)
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 Luminary’s runtime model is explicitly built around two cooperating services:
 
 1. The **Executive**, which schedules and dispatches **jobs** (priority-based runnable units with per-job state).

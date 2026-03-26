@@ -1,5 +1,7 @@
 # Directory and file index
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 This page provides a navigational index for the **Luminary099** source modules in this repository, with a focus on “what to read first” and how the modules relate to the runtime architecture.
 
 The authoritative assembly include order is `Luminary099/MAIN.agc`. The canonical module list with page references is in `Luminary099/README.md` (“Source Code Index”, derived from `MAIN.agc`). The original listing’s log-section grouping is documented in `Luminary099/ASSEMBLY_AND_OPERATION_INFORMATION.agc` (“TABLE OF SUBROUTINE LOG SECTIONS”).

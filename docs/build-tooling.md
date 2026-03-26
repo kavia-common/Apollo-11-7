@@ -1,5 +1,7 @@
 # Build and tooling
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 Luminary 099 in this repository is an archival transcription targeted at the `yaYUL` assembler (part of the Virtual AGC toolchain). The repository itself is primarily a source archive and does not include a complete build pipeline; instead, it provides the source in a `yaYUL`-compatible format and relies on external tooling for assembly.
 
 This page documents what can be grounded directly in the repository sources.

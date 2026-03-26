@@ -1,5 +1,7 @@
 # How to extend this documentation
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 This wiki is intended to stay tightly coupled to the Luminary 099 source modules in this repository. The most important rule is: **do not invent behavior**. If something cannot be grounded in the code/comments, mark it explicitly as a hypothesis and clearly separate it from sourced facts.
 
 ## Recommended workflow

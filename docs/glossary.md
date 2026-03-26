@@ -1,5 +1,7 @@
 # Glossary
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 This glossary defines AGC- and Luminary-specific terms used throughout this wiki. Where the source explicitly documents a concept, it is grounded with a file reference.
 
 ## Core concepts

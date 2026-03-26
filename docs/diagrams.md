@@ -1,5 +1,7 @@
 # Diagrams (Mermaid)
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 This page collects Mermaid diagrams for Luminary 099. The diagrams are grounded in the repository’s source modules, especially:
 
 1. Executive and Waitlist scheduling (`Luminary099/EXECUTIVE.agc`, `Luminary099/WAITLIST.agc`).

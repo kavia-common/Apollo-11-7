@@ -1,5 +1,7 @@
 # Guidance and mission programs
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 Luminary’s mission logic is organized largely as “programs” and associated subroutines (e.g., P20–P25, P40–P47, P63/P64/P65/P66/P67, etc.) with supporting math and navigation routines. The authoritative module index for Luminary 099 is the “Source Code Index” in `Luminary099/README.md` (derived from `Luminary099/MAIN.agc`) and the “TABLE OF SUBROUTINE LOG SECTIONS” in `Luminary099/ASSEMBLY_AND_OPERATION_INFORMATION.agc`.
 
 This page focuses on how to locate and reason about guidance-related modules in the repository, without inventing behavior beyond what is present in the source index.

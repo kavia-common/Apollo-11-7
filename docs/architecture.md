@@ -1,5 +1,7 @@
 # Architecture
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 Luminary 099 is organized as a set of assembly modules which are “linked” by inclusion into a single assembly via `Luminary099/MAIN.agc`. The architecture is therefore best understood as a set of cooperating runtime services plus mission and device subsystems, rather than as separately-linked binaries.
 
 This page describes the major architectural components that are explicit in the source and points you to the modules and labels that implement them.

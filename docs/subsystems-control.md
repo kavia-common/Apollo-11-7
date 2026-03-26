@@ -1,5 +1,7 @@
 # Control (LM DAP / RCS / engine-related control)
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 Luminary contains extensive control logic for the Lunar Module, including the Digital Autopilot (DAP) and its interfaces to reaction control jets and other actuators. This page focuses on control mechanisms that are explicitly described in the modules read for this wiki: Time6 interrupt conventions and key channel interactions.
 
 ## Time6 and the LM DAP: a hard contract

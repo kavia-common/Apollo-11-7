@@ -1,5 +1,7 @@
 # Navigation and state propagation
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 Navigation in Luminary 099 comprises state representation, propagation (integration), and measurement incorporation. This wiki page focuses on the concrete artifacts visible in the source tree: state vectors and their storage, and the modules that the Luminary index identifies as integration/navigation-related.
 
 ## State vectors and permanent navigation storage

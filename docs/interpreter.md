@@ -1,5 +1,7 @@
 # Interpreter (interpretive instruction engine)
 
+Back to: [Luminary 099 Documentation Wiki](index.md)
+
 Luminary includes an interpretive instruction engine that executes compact “interpretive programs” stored in fixed memory. The interpreter is implemented in `Luminary099/INTERPRETER.agc` and uses interpretive constants defined in `Luminary099/INTERPRETIVE_CONSTANT.agc`.
 
 This page documents the interpreter’s execution model and interfaces as they appear in the source.
